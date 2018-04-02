@@ -6,19 +6,16 @@
 CPP_SRCS += \
 ../src/CardManager.cpp \
 ../src/Main.cpp \
-../src/Player.cpp \
 ../src/Suit.cpp 
 
 OBJS += \
 ./src/CardManager.o \
 ./src/Main.o \
-./src/Player.o \
 ./src/Suit.o 
 
 CPP_DEPS += \
 ./src/CardManager.d \
 ./src/Main.d \
-./src/Player.d \
 ./src/Suit.d 
 
 

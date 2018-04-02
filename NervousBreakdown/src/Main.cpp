@@ -127,7 +127,13 @@ int main() {
 					}
 					if (GameSet(states)) {
 						setTextSize(40);
-						drawStringCenter(600, 300, "Game Set!");
+						if (score1 > score2) {
+							drawStringCenter(600, 300, "Player1 won!");
+						} else if (score2 > score1) {
+							drawStringCenter(600, 300, "Player2 won!");
+						} else {
+							drawStringCenter(600, 300, "Draw...");
+						}
 						break;
 					}
 				} else { // 外れ
